@@ -5,9 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    char[20]a;
-    char[20]b;
-    scanf("%c %c",&a,&b);
-    printf("You entered: %c and %c", a,b);
+    char a[20],b[20];
+    scanf("%s %s",&a,&b);
+    printf("You entered: %s and %s", a,b);
     return 0;
 }
