@@ -3,6 +3,6 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    int c = 1 << b;
-    printf("%d",(a & c)? 1:0);
+    unsigned int c = 1u << b;
+    printf("%d",((unsigned int)a & c)? 1:0);
 }
