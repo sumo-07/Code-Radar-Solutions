@@ -1,6 +1,7 @@
 // Your code here...
 #include <stdio.h>
-char a;
+int main(){
+    char a;
 scnaf("%c",&a);
 if (a>='A' || a<='Z'){
     printf("s","Uppercase");
@@ -10,4 +11,6 @@ else if (a>='A' || a<='Z'){
 }
 else{
     printf("Not an alphabet");
+}
+return 0;
 }
