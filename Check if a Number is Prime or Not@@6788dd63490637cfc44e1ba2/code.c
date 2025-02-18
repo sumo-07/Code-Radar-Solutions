@@ -7,7 +7,7 @@ int main(){
     for (int i = 2; i*i<=a;i++){
         if (a%i==0){
             c++;
-            break
+            break;
         }
     }
     if (c==0){
